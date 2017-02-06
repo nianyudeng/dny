@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>          /*告诉浏览器文本类型*/
+<html>
+  <head>                /*头部*/
+     <title>网页导航栏标题</title>
+     span{color:blue;}
+	 <style type="text/css">
+	 table tr td,th{border:2px solid #666;}
+	 </style>
+  </head>
+  
+  <body>                /*网页内容*/
+  
+  
+  <>
+   <h1>标题<h1>
+     
+	 
+	 
+     	 <p>段落文本</p>
+		 <p><em>段落文本</em></p>      /*加强语气，斜体字*/
+		 <p><strong>段落文本</strong></p>/*加强语气，粗体字*/
+		 <p><span>段落文本</span></p>/*可以设置文本颜色样式*/
+		 
+		 <q>引用文本例句等</q>   /*自动会添加双引号*/
+		 <blockquote>引用长文段</blockquote>
+		 
+		 <br />/*文本分行*/
+		 &nbsp/*添加空格*/
+		 <hr />/*添加水平横线*/
+		 
+		 <address>添加地址：柳园A103</address>
+		 <code>加入一行代码</code>
+		 <pre>加入一段代码</pre>
+		 <p><a herf="hppt//:www.baidu.com" title="百度一下">邓年余资料表</a></p>
+  <table>
+  <caption><a herf="www.baidu.com" title="百度一下">邓年余资料表</a></caption>
+    <tbody>
+      <tr>
+	    <th>姓名</th>
+		<th>年龄</th>
+		<th>身高</th>
+	 </tr>	
+	 <tr>
+	    <td>邓年余</td>
+		<td>22</td>
+		<td>175cm</td>
+	</tr>	
+	</tbody>
+	</table>
+  
+  <p><a href="mailto:911977682@qq.com"?subject="我的主题我做主"&body=我喜欢写什么内容就写什么内容！>我的邮箱！！！</a></p>
+  <img src="C:\Users\91197\Desktop\毕业照\精选毕业照/DSC3961.jpg"/>
+  
+  <form method="post"  action="save.php">
+       
+	   <label for="zhanghao">账号ID</label>
+	    <textarea cols="50" rows="10">在这里输入id</textarea>
+	   <input type="password"  
+	   name="zhanghao" id="zhanghao" value=""/>
+      
+  
+  <label>联系邓年余</label>
+  <textarea cols="50" rows="10">在这里输入内容联系</textarea>
+  
+  <p>你是否喜欢邓年余？</p><br />
+  <input type="radio" name="radioname" value="喜欢" checkde="checkde">喜欢
+  <input type="radio" name="radioname" value="不喜欢">不喜欢
+  <input type="radio" name="123" value="不喜欢">不喜欢
+  
+  
+  
+  
+  
+  </form>
+  
+  
+
+  
+  </body>
+  
+  </html>
